@@ -1,0 +1,3203 @@
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:30:45 +0000
+
+ActionController::RoutingError (No route matches [GET] "/items"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (21.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (12.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (224.3ms)
+
+
+Started GET "/" for 80.111.27.19 at 2015-01-20 20:30:50 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (1.1ms)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (9.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (23.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateItems (20150120203106)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "price" decimal, "image_url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150120203106"]]
+  [1m[35m (8.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:31:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1089ms (Views: 1084.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.27.19 at 2015-01-20 20:31:32 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.27.19 at 2015-01-20 20:31:32 +0000
+
+
+Started GET "/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1" for 80.111.27.19 at 2015-01-20 20:31:32 +0000
+
+
+Started GET "/assets/application-5a45a47042ef761e6944b67d1f9f22b6.css?body=1" for 80.111.27.19 at 2015-01-20 20:31:32 +0000
+
+
+Started GET "/items/new" for 80.111.27.19 at 2015-01-20 20:31:36 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (33.1ms)
+  Rendered items/new.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 166ms (Views: 156.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/items" for 80.111.27.19 at 2015-01-20 20:31:53 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1kCCZfmYEcsau0NdKqe5S1FPYce7AM81ecjfbIxbLYZIary9guho30K28RjqcnXx2Aacyo6SGS/J08O9SZZ5GQ==", "item"=>{"title"=>"Colm", "description"=>"Test", "price"=>"1.45", "image_url"=>"driver.jpg"}, "commit"=>"Create Item"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.4ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", "Colm"], ["description", "Test"], ["price", 1.45], ["image_url", "driver.jpg"], ["created_at", "2015-01-20 20:31:53.329852"], ["updated_at", "2015-01-20 20:31:53.329852"]]
+  [1m[36m (36.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://rails-tutorial-colmben.c9.io/items/1
+Completed 302 Found in 51ms (ActiveRecord: 40.7ms)
+
+
+Started GET "/items/1" for 80.111.27.19 at 2015-01-20 20:31:53 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 100ms (Views: 79.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/1/edit" for 80.111.27.19 at 2015-01-20 20:31:57 +0000
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/_form.html.erb (3.9ms)
+  Rendered items/edit.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 88ms (Views: 85.6ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/items/1" for 80.111.27.19 at 2015-01-20 20:32:02 +0000
+Processing by ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G0uUqP6B7eAYIUWvPQGKSUrq4ElAOMZ/xwHgoe+LzeeFYapwhfGU9EAs9+r91Ebzw6MdRHWqEGV3GvxwKkaZeA==", "item"=>{"title"=>"Colm", "description"=>"Test", "price"=>"1.50", "image_url"=>"driver.jpg"}, "commit"=>"Update Item", "id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "items" SET "price" = ?, "updated_at" = ? WHERE "items"."id" = ?  [["price", 1.5], ["updated_at", "2015-01-20 20:32:02.623713"], ["id", 1]]
+  [1m[36m (165.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://rails-tutorial-colmben.c9.io/items/1
+Completed 302 Found in 175ms (ActiveRecord: 166.5ms)
+
+
+Started GET "/items/1" for 80.111.27.19 at 2015-01-20 20:32:02 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 62ms (Views: 59.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:32:05 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 92ms (Views: 90.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/items/1" for 80.111.27.19 at 2015-01-20 20:32:13 +0000
+Processing by ItemsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Aq07xlTGRzo8+HWw2tvLWV6jwVO2tNU2K3nrRSByiH+chwUeL7Y+LmT1x/UaDgfj1+o8XoMmAyybYveU5b/c4A==", "id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "items" WHERE "items"."id" = ?  [["id", 1]]
+  [1m[36m (158.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 164ms (ActiveRecord: 158.8ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:32:13 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 95ms (Views: 94.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:32:18 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 246ms (Views: 244.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:53:41 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (3.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 63ms (Views: 58.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/items/new" for 80.111.27.19 at 2015-01-20 20:53:43 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (2.9ms)
+  Rendered items/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 80.111.27.19 at 2015-01-20 20:54:10 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w9Yn6mPWkn/rEDX2wt+q4NqAPNwt8yXvznWJS3c4qoVd/BkyGKbra7Mdh7MCCmZaU8nB0Rhh8/V+bpWasvX+Gg==", "item"=>{"title"=>"Titleist 712 MB Irons", "description"=>"The Titleist MB 712 irons build upon the successful, tour-proven design of the 710 MB irons with improved looks, feel and performance.", "price"=>"899", "image_url"=>"titleistmb712.jpg"}, "commit"=>"Create Item"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", "Titleist 712 MB Irons"], ["description", "The Titleist MB 712 irons build upon the successful, tour-proven design of the 710 MB irons with improved looks, feel and performance."], ["price", 899.0], ["image_url", "titleistmb712.jpg"], ["created_at", "2015-01-20 20:54:10.099934"], ["updated_at", "2015-01-20 20:54:10.099934"]]
+  [1m[36m (13.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://rails-tutorial-colmben.c9.io/items/2
+Completed 302 Found in 21ms (ActiveRecord: 14.4ms)
+
+
+Started GET "/items/2" for 80.111.27.19 at 2015-01-20 20:54:10 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 102ms (Views: 100.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:54:12 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 80ms (Views: 78.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/new" for 80.111.27.19 at 2015-01-20 20:54:15 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (3.1ms)
+  Rendered items/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 93ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 80.111.27.19 at 2015-01-20 20:54:37 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WzsxaTPe2Gt673y3kPPWuCY5fN1LGKvyNPPangrbLV7FEQ+xSK6hfyLizvJQJhoCr3CB0H6KfeiE6MZPzxZ5wQ==", "item"=>{"title"=>"R11S Fairway 3 Wood", "description"=>"R11S fairway woods improve on the adjustability established in R11 fairways. R11S fairways combine Adjustable Sole Plate Technology (ASP) with Flight Control Technology (FCT) in a high- performance steel fairway wood. The combination of ASP and FCT gives the player 24 ways to set up the R11S fairway.", "price"=>"229.95", "image_url"=>"TaylorMadeR11s.jpg"}, "commit"=>"Create Item"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "R11S Fairway 3 Wood"], ["description", "R11S fairway woods improve on the adjustability established in R11 fairways. R11S fairways combine Adjustable Sole Plate Technology (ASP) with Flight Control Technology (FCT) in a high- performance steel fairway wood. The combination of ASP and FCT gives the player 24 ways to set up the R11S fairway."], ["price", 229.95], ["image_url", "TaylorMadeR11s.jpg"], ["created_at", "2015-01-20 20:54:37.784121"], ["updated_at", "2015-01-20 20:54:37.784121"]]
+  [1m[35m (7.2ms)[0m  commit transaction
+Redirected to http://rails-tutorial-colmben.c9.io/items/3
+Completed 302 Found in 12ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/items/3" for 80.111.27.19 at 2015-01-20 20:54:37 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered items/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 59ms (Views: 57.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:54:39 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/new" for 80.111.27.19 at 2015-01-20 20:54:41 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (2.4ms)
+  Rendered items/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 80.111.27.19 at 2015-01-20 20:55:05 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OH0i+7e5x+yVOJT+3mGKJ+62yHxuJxSaS8r+Xtgz7b2mVxwjzMm++M01JrsetEadZ/81cVu1woD70eKPHf65Ig==", "item"=>{"title"=>"Mizuno MP 630 Fast Track Driver", "description"=>"Slightly open at address, with powerful pear shaped profile and thumping feedback, the MP-630 FAST TRACK inspires imagination from the tee. While designed to suit the eye of stronger players, the shallower design and 445cc size will attract a broad range of abilities", "price"=>"249.99", "image_url"=>"mizunoFastTrack.jpg"}, "commit"=>"Create Item"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", "Mizuno MP 630 Fast Track Driver"], ["description", "Slightly open at address, with powerful pear shaped profile and thumping feedback, the MP-630 FAST TRACK inspires imagination from the tee. While designed to suit the eye of stronger players, the shallower design and 445cc size will attract a broad range of abilities"], ["price", 249.99], ["image_url", "mizunoFastTrack.jpg"], ["created_at", "2015-01-20 20:55:05.424060"], ["updated_at", "2015-01-20 20:55:05.424060"]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://rails-tutorial-colmben.c9.io/items/4
+Completed 302 Found in 13ms (ActiveRecord: 8.3ms)
+
+
+Started GET "/items/4" for 80.111.27.19 at 2015-01-20 20:55:05 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered items/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 60.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:55:07 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 135ms (Views: 133.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/new" for 80.111.27.19 at 2015-01-20 20:55:08 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (4.6ms)
+  Rendered items/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 153ms (Views: 150.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 80.111.27.19 at 2015-01-20 20:55:30 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4No/vfKHbpeDxodhV+p9OUKvvjNIS1pRxMGIHwZKdkd+8AFlifcXg9vLNSSXP7GDy+ZDPn3ZjEt02pTOw4ci2A==", "item"=>{"title"=>"Bushnell Range Finder 1600 Tournament Edition", "description"=>"More modes, fewer strokes and legal for tournament play. The new Pro 1600 Tournament Edition with PinSeeker® is the ultra-accurate laser rangefinder more pros trust their game to than any other. Our PinSeeker Technology allows for easy acquisition of the flag without inadvertently capturing background target distances.", "price"=>"360", "image_url"=>"Bushnell.jpg"}, "commit"=>"Create Item"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Bushnell Range Finder 1600 Tournament Edition"], ["description", "More modes, fewer strokes and legal for tournament play. The new Pro 1600 Tournament Edition with PinSeeker® is the ultra-accurate laser rangefinder more pros trust their game to than any other. Our PinSeeker Technology allows for easy acquisition of the flag without inadvertently capturing background target distances."], ["price", 360.0], ["image_url", "Bushnell.jpg"], ["created_at", "2015-01-20 20:55:30.106697"], ["updated_at", "2015-01-20 20:55:30.106697"]]
+  [1m[35m (14.9ms)[0m  commit transaction
+Redirected to http://rails-tutorial-colmben.c9.io/items/5
+Completed 302 Found in 22ms (ActiveRecord: 15.5ms)
+
+
+Started GET "/items/5" for 80.111.27.19 at 2015-01-20 20:55:30 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered items/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 65.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:55:31 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/5/edit" for 80.111.27.19 at 2015-01-20 20:55:45 +0000
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered items/_form.html.erb (2.4ms)
+  Rendered items/edit.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/5" for 80.111.27.19 at 2015-01-20 20:55:50 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered items/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 89ms (Views: 86.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 20:55:52 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/2/edit" for 80.111.27.19 at 2015-01-20 21:08:44 +0000
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered items/_form.html.erb (2.8ms)
+  Rendered items/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 70ms (Views: 68.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 21:08:49 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/3/edit" for 80.111.27.19 at 2015-01-20 21:08:52 +0000
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered items/_form.html.erb (2.9ms)
+  Rendered items/edit.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 80ms (Views: 78.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 21:08:54 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 80.111.27.19 at 2015-01-20 21:19:12 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (11.6ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.111.27.19 at 2015-01-20 21:19:15 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 21:19:29 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 164ms (Views: 162.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 80.111.27.19 at 2015-01-20 21:19:29 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 21:19:29 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 80.111.27.19 at 2015-01-20 21:19:29 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 80.111.27.19 at 2015-01-20 21:19:29 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.27.19 at 2015-01-20 21:19:29 +0000
+
+
+Started GET "/books" for 80.111.27.19 at 2015-01-20 21:20:35 +0000
+
+ActionController::RoutingError (No route matches [GET] "/books"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (9.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (17.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (106.9ms)
+
+
+Started GET "/books" for 80.111.27.19 at 2015-01-20 21:20:35 +0000
+
+ActionController::RoutingError (No route matches [GET] "/books"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (65.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateItems (20150120203106)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (129.8ms)[0m  DROP TABLE "items"
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20150120203106"]]
+  [1m[35m (96.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 21:33:32 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (217.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateItems (20150120213301)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "price" decimal(8,2), "image_url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150120213301"]]
+  [1m[36m (1467.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 21:35:50 +0000
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 2156ms (Views: 2130.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 21:35:53 +0000
+
+
+Started GET "/items/new" for 80.111.27.19 at 2015-01-20 21:36:14 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (121.1ms)
+  Rendered items/new.html.erb within layouts/application (368.7ms)
+Completed 200 OK in 1100ms (Views: 858.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/items" for 80.111.27.19 at 2015-01-20 21:36:45 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7r+se6QIqSjPow4U88Kw5/uD+5wyPwvNLgsXNMFyPkVwlZKj33jQPJeuvFEzF3xdcsoGkQet3deeEAvlBL9q2g==", "item"=>{"title"=>"Titleist 712 MB Irons", "description"=>"The Titleist MB 712 irons build upon the successful, tour-proven design of the 710 MB irons with improved looks, feel and performance.", "price"=>"899", "image_url"=>"titleistmb712.jpg"}, "commit"=>"Create Item"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Titleist 712 MB Irons"], ["description", "The Titleist MB 712 irons build upon the successful, tour-proven design of the 710 MB irons with improved looks, feel and performance."], ["price", 899.0], ["image_url", "titleistmb712.jpg"], ["created_at", "2015-01-20 21:36:45.152209"], ["updated_at", "2015-01-20 21:36:45.152209"]]
+  [1m[35m (997.2ms)[0m  commit transaction
+Redirected to http://rails-tutorial-colmben.c9.io/items/1
+Completed 302 Found in 1012ms (ActiveRecord: 998.0ms)
+
+
+Started GET "/items/1" for 80.111.27.19 at 2015-01-20 21:36:46 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1371ms (Views: 503.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 21:36:48 +0000
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 21:36:54 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 117ms (Views: 116.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/new" for 80.111.27.19 at 2015-01-20 21:36:57 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (52.4ms)
+  Rendered items/new.html.erb within layouts/application (55.5ms)
+Completed 200 OK in 1758ms (Views: 1757.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 80.111.27.19 at 2015-01-20 21:37:22 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0ZDKXPuBNNfWXrBLMNyHlK7FzmFeM2bp3F3+fu5QZqFPuvSEgPFNw45TAg7wCUsuJ4wzbGuhsPNsRuKvK50yPg==", "item"=>{"title"=>"R11S Fairway 3 Wood", "description"=>"R11S fairway woods improve on the adjustability established in R11 fairways. R11S fairways combine Adjustable Sole Plate Technology (ASP) with Flight Control Technology (FCT) in a high- performance steel fairway wood. The combination of ASP and FCT gives the player 24 ways to set up the R11S fairway.", "price"=>"229.95", "image_url"=>"TaylorMadeR11s.jpg"}, "commit"=>"Create Item"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", "R11S Fairway 3 Wood"], ["description", "R11S fairway woods improve on the adjustability established in R11 fairways. R11S fairways combine Adjustable Sole Plate Technology (ASP) with Flight Control Technology (FCT) in a high- performance steel fairway wood. The combination of ASP and FCT gives the player 24 ways to set up the R11S fairway."], ["price", 229.95], ["image_url", "TaylorMadeR11s.jpg"], ["created_at", "2015-01-20 21:37:22.871992"], ["updated_at", "2015-01-20 21:37:22.871992"]]
+  [1m[36m (336.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://rails-tutorial-colmben.c9.io/items/2
+Completed 302 Found in 355ms (ActiveRecord: 337.3ms)
+
+
+Started GET "/items/2" for 80.111.27.19 at 2015-01-20 21:37:23 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mItem Load (1.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 414ms (Views: 405.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 21:37:25 +0000
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 21:37:27 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.8ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 381ms (Views: 379.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/new" for 80.111.27.19 at 2015-01-20 21:37:37 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (6.1ms)
+  Rendered items/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 264ms (Views: 262.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 80.111.27.19 at 2015-01-20 21:38:03 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"si7DKe7xO3JwMOnusI4uDrZePb3m/kPI+EpaaLHoFa0sBP3xlYFCZig9W6twW+K0PxfAsNNsldJIUUa5dCVBMg==", "item"=>{"title"=>"Mizuno MP 630 Fast Track Driver", "description"=>"Slightly open at address, with powerful pear shaped profile and thumping feedback, the MP-630 FAST TRACK inspires imagination from the tee. While designed to suit the eye of stronger players, the shallower design and 445cc size will attract a broad range of abilities", "price"=>"249.99", "image_url"=>"mizunoFastTrack.jpg"}, "commit"=>"Create Item"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Mizuno MP 630 Fast Track Driver"], ["description", "Slightly open at address, with powerful pear shaped profile and thumping feedback, the MP-630 FAST TRACK inspires imagination from the tee. While designed to suit the eye of stronger players, the shallower design and 445cc size will attract a broad range of abilities"], ["price", 249.99], ["image_url", "mizunoFastTrack.jpg"], ["created_at", "2015-01-20 21:38:03.193608"], ["updated_at", "2015-01-20 21:38:03.193608"]]
+  [1m[35m (17.5ms)[0m  commit transaction
+Redirected to http://rails-tutorial-colmben.c9.io/items/3
+Completed 302 Found in 24ms (ActiveRecord: 18.1ms)
+
+
+Started GET "/items/3" for 80.111.27.19 at 2015-01-20 21:38:03 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered items/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 21:38:03 +0000
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 21:38:05 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 113ms (Views: 111.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/new" for 80.111.27.19 at 2015-01-20 21:38:12 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (2.7ms)
+  Rendered items/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 80.111.27.19 at 2015-01-20 21:38:33 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T3h1/FxWaVRAWvJ0fdHZEDCAOTq38ZMvQqp4bsil1l7RUkskJyYQQBhXQDG9BBWqucnEN4JjRTXysWS/DWiCwQ==", "item"=>{"title"=>"Bushnell Range Finder 1600 Tournament Edition", "description"=>"More modes, fewer strokes and legal for tournament play. The new Pro 1600 Tournament Edition with PinSeeker® is the ultra-accurate laser rangefinder more pros trust their game to than any other. Our PinSeeker Technology allows for easy acquisition of the flag without inadvertently capturing background target distances.", "price"=>"360", "image_url"=>"Bushnell.jpg"}, "commit"=>"Create Item"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", "Bushnell Range Finder 1600 Tournament Edition"], ["description", "More modes, fewer strokes and legal for tournament play. The new Pro 1600 Tournament Edition with PinSeeker® is the ultra-accurate laser rangefinder more pros trust their game to than any other. Our PinSeeker Technology allows for easy acquisition of the flag without inadvertently capturing background target distances."], ["price", 360.0], ["image_url", "Bushnell.jpg"], ["created_at", "2015-01-20 21:38:33.058688"], ["updated_at", "2015-01-20 21:38:33.058688"]]
+  [1m[36m (64.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://rails-tutorial-colmben.c9.io/items/4
+Completed 302 Found in 73ms (ActiveRecord: 64.9ms)
+
+
+Started GET "/items/4" for 80.111.27.19 at 2015-01-20 21:38:33 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered items/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 21:38:33 +0000
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 21:38:35 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 120ms (Views: 117.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/site/about" for 80.111.27.19 at 2015-01-20 22:19:38 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 358ms (Views: 357.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-18f10afd70767e0049304380ce89b979.js?body=1" for 80.111.27.19 at 2015-01-20 22:19:38 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 22:19:38 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.27.19 at 2015-01-20 22:19:39 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 80.111.27.19 at 2015-01-20 22:19:39 +0000
+
+
+Started GET "/index.html" for 80.111.27.19 at 2015-01-20 22:40:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (69.2ms)
+
+
+Started GET "/index.html" for 80.111.27.19 at 2015-01-20 22:40:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (54.0ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 22:41:05 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 89ms (Views: 84.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 22:41:06 +0000
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 22:44:22 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (40.7ms)
+Completed 200 OK in 117ms (Views: 116.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 22:44:23 +0000
+
+
+Started GET "/items/2" for 80.111.27.19 at 2015-01-20 22:45:07 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 104ms (Views: 101.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/2" for 80.111.27.19 at 2015-01-20 22:45:11 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 22:55:13 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 292ms (Views: 288.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application-d00ee1ff401e9b9eddd04141530c64f3.js?body=1" for 80.111.27.19 at 2015-01-20 22:55:14 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 22:55:14 +0000
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 22:55:17 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 137ms (Views: 136.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about" for 80.111.27.19 at 2015-01-20 22:55:19 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 80.111.27.19 at 2015-01-20 22:55:22 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 110ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Admin" for 80.111.27.19 at 2015-01-20 22:55:25 +0000
+
+ActionController::RoutingError (No route matches [GET] "/Admin"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (57.3ms)
+
+
+Started GET "/Admin" for 80.111.27.19 at 2015-01-20 22:55:25 +0000
+
+ActionController::RoutingError (No route matches [GET] "/Admin"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (69.5ms)
+
+
+Started GET "/contact" for 80.111.27.19 at 2015-01-20 22:55:39 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 101ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 22:55:40 +0000
+
+
+Started GET "/admin" for 80.111.27.19 at 2015-01-20 22:55:41 +0000
+Processing by UserController#admin_login as HTML
+Redirected to http://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 22:55:41 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 119ms (Views: 117.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 22:56:29 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 111ms (Views: 109.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 22:56:29 +0000
+
+
+Started GET "/logout" for 80.111.27.19 at 2015-01-20 22:56:34 +0000
+Processing by UserController#logout as HTML
+Redirected to http://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 22:56:34 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 161ms (Views: 160.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for 80.111.27.19 at 2015-01-20 22:56:35 +0000
+Processing by UserController#admin_login as HTML
+Redirected to http://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 22:56:35 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 23:15:04 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 379ms (Views: 375.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.27.19 at 2015-01-20 23:15:05 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 23:15:05 +0000
+
+
+Started GET "/items/1" for 80.111.27.19 at 2015-01-20 23:15:09 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 158ms (Views: 154.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for 80.111.27.19 at 2015-01-20 23:15:13 +0000
+Processing by UserController#admin_login as HTML
+Redirected to http://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 23:15:13 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 151ms (Views: 149.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/logout" for 80.111.27.19 at 2015-01-20 23:15:17 +0000
+Processing by UserController#logout as HTML
+Redirected to http://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 23:15:17 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 162ms (Views: 160.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart/1" for 80.111.27.19 at 2015-01-20 23:15:23 +0000
+
+ActionController::RoutingError (No route matches [GET] "/cart/1"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (62.2ms)
+
+
+Started GET "/cart/1" for 80.111.27.19 at 2015-01-20 23:15:23 +0000
+
+ActionController::RoutingError (No route matches [GET] "/cart/1"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (61.3ms)
+
+
+Started GET "/cart/1" for 80.111.27.19 at 2015-01-20 23:16:35 +0000
+
+ActionController::RoutingError (No route matches [GET] "/cart/1"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (58.1ms)
+
+
+Started GET "/cart/1" for 80.111.27.19 at 2015-01-20 23:17:14 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 80.111.27.19 at 2015-01-20 23:17:14 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 145ms (Views: 142.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.27.19 at 2015-01-20 23:17:14 +0000
+
+
+Started GET "/items" for 80.111.27.19 at 2015-01-20 23:17:20 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 164ms (Views: 161.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/cart/3" for 80.111.27.19 at 2015-01-20 23:17:23 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"3"}
+Redirected to http://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 80.111.27.19 at 2015-01-20 23:17:23 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered cart/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 140ms (Views: 138.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-02-23 19:08:20 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (4.8ms)
+Completed 200 OK in 34ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 19:08:55 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (54.5ms)
+Completed 200 OK in 383ms (Views: 365.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-23 19:08:55 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-02-23 19:08:56 +0000
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 19:08:59 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 146ms (Views: 144.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/1" for 193.1.209.100 at 2015-02-23 19:09:01 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 118ms (Views: 104.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 19:09:06 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 110ms (Views: 108.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contact" for 193.1.209.100 at 2015-02-23 19:09:08 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 181ms (Views: 179.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 193.1.209.100 at 2015-02-23 19:09:09 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 157ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 19:09:10 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 124ms (Views: 121.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/new" for 193.1.209.100 at 2015-02-23 19:09:13 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (22.3ms)
+  Rendered items/new.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 177ms (Views: 175.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-23 19:09:18 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-23 19:09:18 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 127ms (Views: 125.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 19:09:20 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 120ms (Views: 117.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-23 19:09:29 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 154ms (Views: 152.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 19:09:36 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 128ms (Views: 125.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-23 19:09:40 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-23 19:09:40 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (1.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 119ms (Views: 116.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 19:09:43 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 136ms (Views: 134.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart/2" for 193.1.209.100 at 2015-02-23 19:09:45 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-23 19:09:45 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 117ms (Views: 115.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 19:09:47 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 103ms (Views: 100.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 66.249.81.155 at 2015-02-23 19:33:52 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.3ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 66.249.81.172 at 2015-02-23 19:33:52 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 470ms (Views: 454.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-23 21:49:41 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 193.1.209.100 at 2015-02-23 21:49:42 +0000
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-23 21:50:25 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-23 21:50:26 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 199ms (Views: 197.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 21:50:30 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 105ms (Views: 103.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-23 21:50:32 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-23 21:50:32 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 114ms (Views: 112.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 21:50:41 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 160ms (Views: 158.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cart/2" for 193.1.209.100 at 2015-02-23 21:50:44 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-23 21:50:44 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 118ms (Views: 117.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 21:50:46 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 122ms (Views: 120.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/2" for 193.1.209.100 at 2015-02-23 21:50:49 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 108ms (Views: 105.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-02-23 21:51:38 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 102ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-23 21:51:44 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 66.249.81.159 at 2015-02-24 12:22:57 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (5.4ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-02-24 12:37:04 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (4.4ms)
+Completed 200 OK in 34ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-24 12:37:11 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (50.0ms)
+Completed 200 OK in 341ms (Views: 333.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-24 12:37:11 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 193.1.209.100 at 2015-02-24 12:37:11 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-02-24 12:37:11 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-02-28 12:52:11 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (60.8ms)
+Completed 200 OK in 87ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:52:17 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 254ms (Views: 250.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 12:52:19 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 193.1.209.100 at 2015-02-28 12:52:19 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-02-28 12:52:19 +0000
+
+
+Started GET "/items/1" for 193.1.209.100 at 2015-02-28 12:52:46 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 104ms (Views: 87.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-02-28 12:53:20 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:53:20 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 130ms (Views: 129.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items/new" for 193.1.209.100 at 2015-02-28 12:53:25 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (24.5ms)
+  Rendered items/new.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 126ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 12:53:28 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:53:28 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 82ms (Views: 80.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 12:53:35 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:53:35 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 12:54:13 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:54:13 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 12:54:50 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:54:50 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-02-28 12:54:51 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:54:51 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 96ms (Views: 94.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 12:54:52 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:54:52 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 88ms (Views: 86.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-02-28 12:54:55 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:54:55 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 12:54:56 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 12:54:56 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 101ms (Views: 99.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contact" for 193.1.209.100 at 2015-02-28 13:02:23 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 193.1.209.100 at 2015-02-28 13:02:25 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 81ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 13:02:31 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 98ms (Views: 97.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 13:02:38 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 13:02:38 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 112ms (Views: 110.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-02-28 13:02:40 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 13:02:40 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/about" for 193.1.209.100 at 2015-02-28 13:10:42 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 13:10:44 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 106ms (Views: 104.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-02-28 14:11:55 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:12:02 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 75ms (Views: 73.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-02-28 14:12:03 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-02-28 14:12:14 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 97ms (Views: 93.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-02-28 14:19:21 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-02-28 14:23:07 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 99ms (Views: 97.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-02-28 14:23:08 +0000
+
+
+Started GET "/cart/2" for 193.1.209.100 at 2015-02-28 14:23:58 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:23:58 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 96ms (Views: 95.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:24:00 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items/1" for 193.1.209.100 at 2015-02-28 14:24:02 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 92ms (Views: 89.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items/1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 77ms (Views: 75.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 14:29:02 +0000
+
+
+Started GET "/items/1" for 193.1.209.100 at 2015-02-28 14:32:00 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (21.1ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (undefined local variable or method `item' for #<#<Class:0x000000054b6b30>:0x007fdb0940d7d8>):
+    22: 
+    23: <%= link_to 'Edit', edit_item_path(@item) %> |
+    24: <%= link_to 'Back', items_path %> |
+    25: <a href="/cart/<%= item.id %>">Add to Cart</a> 
+  app/views/items/show.html.erb:25:in `_app_views_items_show_html_erb__336744350202369259_70289364925720'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (46.3ms)
+
+
+Started GET "/items/1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 94ms (Views: 92.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 14:34:15 +0000
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-28 14:34:19 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:34:19 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 80ms (Views: 78.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-02-28 14:34:19 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-02-28 14:34:19 +0000
+
+
+Started GET "/items/2" for 193.1.209.100 at 2015-02-28 14:35:22 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 105ms (Views: 102.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart/2" for 193.1.209.100 at 2015-02-28 14:35:25 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:35:25 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 96ms (Views: 94.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:35:29 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 75ms (Views: 73.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-02-28 14:35:29 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-02-28 14:35:29 +0000
+
+
+Started GET "/items/1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 95ms (Views: 93.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 14:39:55 +0000
+
+
+Started GET "/cart/index" for 193.1.209.100 at 2015-02-28 14:39:56 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"index"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:39:56 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 0]]
+  Rendered cart/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    20:     <tr>
+    21:         <td>
+    22:             <div class="image">
+    23:                 <%= link_to (image_tag item.image_url, :style => "height:40px"), item %>
+    24:             </div>
+    25:         </td>
+    26:         <td class="title"><%= link_to item.title, item %></td>
+  app/views/cart/index.html.erb:23:in `block in _app_views_cart_index_html_erb__46345221759666471_70289363591440'
+  app/views/cart/index.html.erb:18:in `each'
+  app/views/cart/index.html.erb:18:in `_app_views_cart_index_html_erb__46345221759666471_70289363591440'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (35.4ms)
+
+
+Started GET "/cart/index" for 193.1.209.100 at 2015-02-28 14:39:57 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"index"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:39:57 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered cart/index.html.erb within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    20:     <tr>
+    21:         <td>
+    22:             <div class="image">
+    23:                 <%= link_to (image_tag item.image_url, :style => "height:40px"), item %>
+    24:             </div>
+    25:         </td>
+    26:         <td class="title"><%= link_to item.title, item %></td>
+  app/views/cart/index.html.erb:23:in `block in _app_views_cart_index_html_erb__46345221759666471_70289368529900'
+  app/views/cart/index.html.erb:18:in `each'
+  app/views/cart/index.html.erb:18:in `_app_views_cart_index_html_erb__46345221759666471_70289368529900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (34.5ms)
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-28 14:41:44 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:41:44 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 0]]
+  Rendered cart/index.html.erb within layouts/application (21.7ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    20:     <tr>
+    21:         <td>
+    22:             <div class="image">
+    23:                 <%= link_to (image_tag item.image_url, :style => "height:40px"), item %>
+    24:             </div>
+    25:         </td>
+    26:         <td class="title"><%= link_to item.title, item %></td>
+  app/views/cart/index.html.erb:23:in `block in _app_views_cart_index_html_erb__46345221759666471_70289363591440'
+  app/views/cart/index.html.erb:18:in `each'
+  app/views/cart/index.html.erb:18:in `_app_views_cart_index_html_erb__46345221759666471_70289363591440'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (35.9ms)
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-28 14:41:45 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:41:45 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered cart/index.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    20:     <tr>
+    21:         <td>
+    22:             <div class="image">
+    23:                 <%= link_to (image_tag item.image_url, :style => "height:40px"), item %>
+    24:             </div>
+    25:         </td>
+    26:         <td class="title"><%= link_to item.title, item %></td>
+  app/views/cart/index.html.erb:23:in `block in _app_views_cart_index_html_erb__46345221759666471_70289368529900'
+  app/views/cart/index.html.erb:18:in `each'
+  app/views/cart/index.html.erb:18:in `_app_views_cart_index_html_erb__46345221759666471_70289368529900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (34.9ms)
+
+
+Started GET "/items/1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 93ms (Views: 91.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 14:41:49 +0000
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:41:51 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-02-28 14:41:51 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-02-28 14:41:51 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-02-28 14:41:51 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-02-28 14:41:51 +0000
+
+
+Started GET "/cart/2" for 193.1.209.100 at 2015-02-28 14:41:53 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:41:53 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 0]]
+  Rendered cart/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    20:     <tr>
+    21:         <td>
+    22:             <div class="image">
+    23:                 <%= link_to (image_tag item.image_url, :style => "height:40px"), item %>
+    24:             </div>
+    25:         </td>
+    26:         <td class="title"><%= link_to item.title, item %></td>
+  app/views/cart/index.html.erb:23:in `block in _app_views_cart_index_html_erb__46345221759666471_70289363591440'
+  app/views/cart/index.html.erb:18:in `each'
+  app/views/cart/index.html.erb:18:in `_app_views_cart_index_html_erb__46345221759666471_70289363591440'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (33.1ms)
+
+
+Started GET "/cart/2" for 193.1.209.100 at 2015-02-28 14:41:53 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:41:53 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered cart/index.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    20:     <tr>
+    21:         <td>
+    22:             <div class="image">
+    23:                 <%= link_to (image_tag item.image_url, :style => "height:40px"), item %>
+    24:             </div>
+    25:         </td>
+    26:         <td class="title"><%= link_to item.title, item %></td>
+  app/views/cart/index.html.erb:23:in `block in _app_views_cart_index_html_erb__46345221759666471_70289368529900'
+  app/views/cart/index.html.erb:18:in `each'
+  app/views/cart/index.html.erb:18:in `_app_views_cart_index_html_erb__46345221759666471_70289368529900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (37.2ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:43:45 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 295ms (Views: 283.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/1" for 193.1.209.100 at 2015-02-28 14:43:47 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 99ms (Views: 86.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:43:49 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 120ms (Views: 119.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-28 14:43:50 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:43:50 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 0]]
+  Rendered cart/index.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    20:     <tr>
+    21:         <td>
+    22:             <div class="image">
+    23:                 <%= link_to (image_tag item.image_url, :style => "height:40px"), item %>
+    24:             </div>
+    25:         </td>
+    26:         <td class="title"><%= link_to item.title, item %></td>
+  app/views/cart/index.html.erb:23:in `block in _app_views_cart_index_html_erb___221496871132311014_37082060'
+  app/views/cart/index.html.erb:18:in `each'
+  app/views/cart/index.html.erb:18:in `_app_views_cart_index_html_erb___221496871132311014_37082060'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (36.4ms)
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-28 14:43:50 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:43:50 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 0]]
+  Rendered cart/index.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `image_url' for nil:NilClass):
+    20:     <tr>
+    21:         <td>
+    22:             <div class="image">
+    23:                 <%= link_to (image_tag item.image_url, :style => "height:40px"), item %>
+    24:             </div>
+    25:         </td>
+    26:         <td class="title"><%= link_to item.title, item %></td>
+  app/views/cart/index.html.erb:23:in `block in _app_views_cart_index_html_erb___221496871132311014_69952248514060'
+  app/views/cart/index.html.erb:18:in `each'
+  app/views/cart/index.html.erb:18:in `_app_views_cart_index_html_erb___221496871132311014_69952248514060'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (34.9ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-02-28 14:49:01 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:49:01 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 275ms (Views: 270.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 14:49:10 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:49:10 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:06 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 112ms (Views: 110.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 14:54:07 +0000
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-02-28 14:54:10 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:10 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart/1" for 193.1.209.100 at 2015-02-28 14:54:11 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:54:12 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 116ms (Views: 115.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:13 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 98ms (Views: 96.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-02-28 14:54:15 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:43 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-02-28 14:54:44 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:44 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 82ms (Views: 81.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 14:54:45 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:45 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 74ms (Views: 72.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-02-28 14:54:46 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:46 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 91ms (Views: 89.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 14:54:47 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:47 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items/1/edit" for 193.1.209.100 at 2015-02-28 14:54:52 +0000
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/_form.html.erb (19.2ms)
+  Rendered items/edit.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 126ms (Views: 123.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:54 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 113ms (Views: 111.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-02-28 14:54:56 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:54:56 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 94ms (Views: 93.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-02-28 14:58:46 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:58:46 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 96ms (Views: 94.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 108ms (Views: 107.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-02-28 14:59:01 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-03-02 19:08:22 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (32.3ms)
+Completed 200 OK in 240ms (Views: 226.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-03-02 19:08:23 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 193.1.209.100 at 2015-03-02 19:08:23 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-03-02 19:08:23 +0000
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-03-02 19:08:25 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-03-02 19:08:27 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 117ms (Views: 115.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items/2" for 193.1.209.100 at 2015-03-02 19:08:29 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (undefined local variable or method `item' for #<#<Class:0x00000004e10920>:0x0000000330d510>):
+    22: 
+    23: <%= link_to 'Edit', edit_item_path(@item) %> |
+    24: <%= link_to 'Back', items_path %> |
+    25: <a href="/cart/<%= item.id %>">Add to Cart</a> 
+  app/views/items/show.html.erb:25:in `_app_views_items_show_html_erb___710996660881311133_26706020'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (50.2ms)
+
+
+Started GET "/items/2" for 193.1.209.100 at 2015-03-02 19:08:30 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined local variable or method `item' for #<#<Class:0x00000004e10920>:0x007fa9a8f7d470>):
+    22: 
+    23: <%= link_to 'Edit', edit_item_path(@item) %> |
+    24: <%= link_to 'Back', items_path %> |
+    25: <a href="/cart/<%= item.id %>">Add to Cart</a> 
+  app/views/items/show.html.erb:25:in `_app_views_items_show_html_erb___710996660881311133_70183330462220'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (34.0ms)
+
+
+Started GET "/items/2" for 193.1.209.100 at 2015-03-02 19:09:11 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (17.5ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined local variable or method `item' for #<#<Class:0x00000004e10920>:0x007fa9a96a9ac8>):
+    22: 
+    23: <%= link_to 'Edit', edit_item_path(@item) %> |
+    24: <%= link_to 'Back', items_path %> |
+    25: <a href="/cart/<%= item.id %>">Add to Cart</a> 
+  app/views/items/show.html.erb:25:in `_app_views_items_show_html_erb___710996660881311133_70183330462220'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (36.2ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-03-02 19:09:20 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    25:               <%= link_to 'Edit', edit_item_path(item) %> |
+    26:               <%= link_to 'Delete', item, :confirm => 'Are you sure?', :method => :delete %>
+    27:             <% else %>
+    28:               <a href="/cart/<%= @item.id %>">Add to Cart</a><br><br>
+    29:             <% end %>
+    30: 
+    31:         </div>
+  app/views/items/index.html.erb:28:in `block in _app_views_items_index_html_erb___1299238018092330182_70183333316920'
+  app/views/items/index.html.erb:6:in `_app_views_items_index_html_erb___1299238018092330182_70183333316920'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.4@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (36.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-03-02 19:09:41 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 94ms (Views: 92.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-03-02 19:09:41 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 193.1.209.100 at 2015-03-02 19:09:41 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 193.1.209.100 at 2015-03-02 19:09:41 +0000
+
+
+Started GET "/items/2" for 193.1.209.100 at 2015-03-02 19:09:44 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 88ms (Views: 85.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart/2" for 193.1.209.100 at 2015-03-02 19:09:45 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to https://rails-tutorial-colmben.c9.io/cart
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-03-02 19:09:45 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 101ms (Views: 99.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-03-02 19:09:47 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-03-02 19:09:48 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 88ms (Views: 86.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-03-02 19:09:50 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 112ms (Views: 110.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/about" for 193.1.209.100 at 2015-03-02 19:09:56 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 95ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-03-02 19:09:57 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 104ms (Views: 102.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/contact" for 193.1.209.100 at 2015-03-02 19:09:58 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 104ms (Views: 102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-03-02 19:09:59 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-03-02 19:10:01 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-03-02 19:10:01 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 99ms (Views: 97.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-03-02 19:10:03 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 109ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-03-02 19:10:05 +0000
+Processing by UserController#logout as HTML
+Redirected to https://rails-tutorial-colmben.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-03-02 19:10:05 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-03-02 19:10:06 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
