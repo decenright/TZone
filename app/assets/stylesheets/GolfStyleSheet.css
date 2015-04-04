@@ -70,7 +70,7 @@ div#container {
     min-height: 700px;
     border: 1px solid gray;
     /*background: lightgrey;*/
-    background-image: url("/assets/Site/bg3.gif");
+    background-image: url("/assets/Site/BG_Main.jpg");
     max-width: 1000px;
     min-width: 750px;
     margin: auto;
@@ -82,7 +82,7 @@ div#first-column {
     bottom: 0;
     /*border: 1px solid gray;*/
     /*background: rgb(240, 240, 240);*/
-    background-image: url("/assets/Site/bg3.gif");
+    background-image: url("/assets/Site/BG_Main.jpg");
     width: 279px;
     margin: 3px;
 }
@@ -94,7 +94,7 @@ div#content {
     margin: 3px 3px 3px 5px;
     padding: 10px;
     /*background: rgb(240, 240, 240);*/
-    background-image: url("/assets/Site/bg3.gif");
+    background-image: url("/assets/Site/BG_Main.jpg");
     border: 1px solid gray;
     min-height: 392px;
     width: 680px;
@@ -102,7 +102,7 @@ div#content {
 div#header,
 div#footer,
 div#menu {
-    background: rgb(20, 20, 20);
+    background: rgb(4, 84, 164);
     padding: 3px;
     border: 1px solid gray;
     max-width: 994px;
@@ -116,9 +116,9 @@ div#menu {
 }
 div#header {
     border-bottom: none;
-    background-image: url("/assets/Site/BookHeader.jpg") ;
+    background-image: url("/assets/Site/T_Store_Header.jpg") ;
     width: 1024px;
-    height: 100px;
+    height: 140px;
 }
 div#footer {
     border-top: none;
@@ -145,7 +145,7 @@ div.searchbox {
      padding: 5px;         
      list-style-type: none;         
      text-align: left;        
-     background-color: #333;         
+     background-color: #0068A7;         
  }  
  
  #navbar ul li           
@@ -159,7 +159,7 @@ div.searchbox {
      text-decoration: none;         
      padding: .2em 1em;         
      color: #fff;         
-     background-color: #333;         
+     background-color: #0068A7;         
      }  
      
 #navbar ul li a:hover          

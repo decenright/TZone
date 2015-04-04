@@ -3201,3 +3201,3034 @@ Started GET "/cart" for 193.1.209.100 at 2015-03-02 19:10:06 +0000
 Processing by CartController#index as HTML
   Rendered cart/index.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 16:56:20 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 846ms (Views: 832.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/GolfStyleSheet-3cd9292d61f978ed75c8729635360737.css?body=1" for 80.111.161.165 at 2015-04-04 16:56:21 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/application-7779725bdcf85279eabc4b746618e804.css?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 80.111.161.165 at 2015-04-04 16:56:22 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 16:56:41 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 119ms (Views: 117.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 16:56:41 +0000
+
+
+Started GET "/assets/Site/BookHeader.jpg" for 80.111.161.165 at 2015-04-04 16:56:41 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 16:56:41 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 17:00:00 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 93ms (Views: 91.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 18:17:33 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 128ms (Views: 127.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/GolfStyleSheet-f5b71d48d2f106182c5f6a2253f35599.css?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/application-9ecf172126ad3ab4f034731cef079557.css?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 18:17:34 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 120ms (Views: 119.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-b9d6746eb7c09fdd6a84c4f0a7f5b2e2.css?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/application-937032f7e38c901ff0b6c8d00f663943.css?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 18:18:09 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 106ms (Views: 104.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/GolfStyleSheet-2d5c6a0f5f44a095cfe6f3b74ba33f91.css?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/application-4c2a3fc040a5f9859db574aa7d39cea6.css?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 18:20:01 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:21:07 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 91ms (Views: 89.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:21:12 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 122ms (Views: 121.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/about" for 80.111.161.165 at 2015-04-04 18:21:18 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 95ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 80.111.161.165 at 2015-04-04 18:21:19 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 92ms (Views: 90.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 80.111.161.165 at 2015-04-04 18:21:21 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://ails--roject-decenright.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:21:21 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 110ms (Views: 108.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 80.111.161.165 at 2015-04-04 18:21:24 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://ails--roject-decenright.c9.io/items
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:21:24 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 91ms (Views: 90.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/logout" for 80.111.161.165 at 2015-04-04 18:21:29 +0000
+Processing by UserController#logout as HTML
+Redirected to https://ails--roject-decenright.c9.io/items
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:21:29 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 86ms (Views: 85.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart" for 80.111.161.165 at 2015-04-04 18:21:30 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 95ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for 80.111.161.165 at 2015-04-04 18:21:32 +0000
+Processing by UserController#logout as HTML
+Redirected to https://ails--roject-decenright.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:21:32 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 80.111.161.165 at 2015-04-04 18:21:33 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://ails--roject-decenright.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:21:33 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 94ms (Views: 92.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contact" for 80.111.161.165 at 2015-04-04 18:21:35 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 80.111.161.165 at 2015-04-04 18:21:54 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:21:55 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 101ms (Views: 99.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:27:54 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 131ms (Views: 129.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-63b13cec08cd6207fef9815acc03040d.css?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/application-91d8c006079ea1fbd72b9654d0978697.css?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 18:27:55 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:30:45 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:30:45 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:30:45 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:30:45 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:30:45 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 220ms (Views: 218.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/GolfStyleSheet-12b4c1f6d16b03a3bb4c78ba357ea626.css?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/application-439952d43efb0f0de80a6676cbda8cf1.css?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 18:35:25 +0000
+
+
+Started GET "/contact" for 80.111.161.165 at 2015-04-04 18:35:32 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:35:34 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 93ms (Views: 91.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:38:07 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:38:07 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:38:07 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:38:07 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:38:07 +0000
+
+
+Started GET "/contact" for 80.111.161.165 at 2015-04-04 18:45:08 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 96ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:45:56 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:45:56 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:45:56 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:45:56 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:45:56 +0000
+
+
+Started GET "/contact" for 80.111.161.165 at 2015-04-04 18:46:39 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 119.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/GolfStyleSheet-5d054ba37ac5d03cfa993a5c4e22beb0.css?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/application-9a148c71f4d278e3c45c2cd6d89fd4e0.css?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+
+Started GET "/assets/Site/BG_Main" for 80.111.161.165 at 2015-04-04 18:46:40 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/BG_Main"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (11.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (63.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:46:43 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:46:43 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:46:43 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:46:43 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:46:43 +0000
+
+
+Started GET "/about" for 80.111.161.165 at 2015-04-04 18:46:47 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 80.111.161.165 at 2015-04-04 18:46:48 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 97ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 80.111.161.165 at 2015-04-04 18:46:49 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://ails--roject-decenright.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:46:49 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 86ms (Views: 85.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/logout" for 80.111.161.165 at 2015-04-04 18:46:50 +0000
+Processing by UserController#logout as HTML
+Redirected to https://ails--roject-decenright.c9.io/items
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:46:50 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart" for 80.111.161.165 at 2015-04-04 18:46:51 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 82ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:46:52 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 140ms (Views: 139.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/assets/Site/BG_Main.jpg" for 80.111.161.165 at 2015-04-04 18:47:14 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:49:03 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 110ms (Views: 109.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:49:04 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 94ms (Views: 92.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:49:07 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:49:10 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 104ms (Views: 102.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 118ms (Views: 116.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:49:28 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 107ms (Views: 98.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:49:32 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 91ms (Views: 89.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:49:58 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:50:06 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:50:07 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:50:49 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:50:50 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 135ms (Views: 134.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/GolfStyleSheet-12b4c1f6d16b03a3bb4c78ba357ea626.css?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/application-439952d43efb0f0de80a6676cbda8cf1.css?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:52:25 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:52:26 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:52:26 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:52:26 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:52:26 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:53:08 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 114ms (Views: 112.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:53:09 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:53:10 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 114ms (Views: 112.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 18:54:27 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 18:54:28 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 18:54:28 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 18:54:28 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 18:54:28 +0000
+
+
+Started GET "/assets/GolfStyleSheet-2cad8b3ff48070d96f930b430d460d9c.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:46 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:46 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:46 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:46 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:46 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:46 +0000
+
+
+Started GET "/assets/application-3ae8e4ca30e0386289bba2ba7f588fbd.css?body=1" for 80.111.161.165 at 2015-04-04 18:54:46 +0000
+
+
+Started GET "/assets/Site/BG_Main.jpg" for 80.111.161.165 at 2015-04-04 18:55:54 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 112ms (Views: 110.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/assets/Site/BG_Main.jpg" for 80.111.161.165 at 2015-04-04 19:00:22 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:04:51 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:05:01 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 93ms (Views: 91.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:01 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:01 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:01 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:01 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:01 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:01 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:01 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:05:02 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:05:29 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 114ms (Views: 113.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:05:33 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:06:04 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:06:06 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:06:08 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:14:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 385ms (Views: 373.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/GolfStyleSheet-12b4c1f6d16b03a3bb4c78ba357ea626.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/application-439952d43efb0f0de80a6676cbda8cf1.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 19:14:31 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:14:57 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 121ms (Views: 119.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:57 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:57 +0000
+
+
+Started GET "/assets/GolfStyleSheet-12b4c1f6d16b03a3bb4c78ba357ea626.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:57 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:57 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:57 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:57 +0000
+
+
+Started GET "/assets/application-439952d43efb0f0de80a6676cbda8cf1.css?body=1" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:14:58 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 19:14:59 +0000
+
+
+Started GET "/assets/Site/bg3.gif" for 80.111.161.165 at 2015-04-04 19:14:59 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 96ms (Views: 94.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:16:16 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:16:17 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:16:17 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:16:17 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:16:17 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 19:16:17 +0000
+
+
+Started GET "/assets/Site/BG_Main.jpg" for 80.111.161.165 at 2015-04-04 19:16:17 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:18:25 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 97ms (Views: 95.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:25 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:25 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:25 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:25 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:25 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:25 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:18:26 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 81ms (Views: 80.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:18:27 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:18:30 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:18:31 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 90ms (Views: 88.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:18:49 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 98ms (Views: 97.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:19:11 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:19:15 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:19:56 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:20:16 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:16 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:16 +0000
+
+
+Started GET "/assets/Site/BG_Main.jpg" for 80.111.161.165 at 2015-04-04 19:20:16 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:20:35 +0000
+
+
+Started GET "/" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 95ms (Views: 94.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/GolfStyleSheet-a8da12d62e699a7ea9d15334174b3410.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/application-ea7b51e515faec16d59958a44a3a0b95.css?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/application-367c100594a401afda66dc00316e49ba.js?body=1" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 80.111.161.165 at 2015-04-04 19:20:43 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 80.111.161.165 at 2015-04-04 19:20:44 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 80.111.161.165 at 2015-04-04 19:20:44 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 80.111.161.165 at 2015-04-04 19:20:44 +0000
+
+
+Started GET "/assets/Site/BG_Main.jpg" for 80.111.161.165 at 2015-04-04 19:20:44 +0000
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:23:22 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 108ms (Views: 106.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for 80.111.161.165 at 2015-04-04 19:23:24 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 84ms (Views: 83.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 80.111.161.165 at 2015-04-04 19:23:28 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 80.111.161.165 at 2015-04-04 19:23:30 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://ails--roject-decenright.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:23:30 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/logout" for 80.111.161.165 at 2015-04-04 19:23:32 +0000
+Processing by UserController#logout as HTML
+Redirected to https://ails--roject-decenright.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:23:32 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 89ms (Views: 88.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart" for 80.111.161.165 at 2015-04-04 19:23:34 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 96ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.111.161.165 at 2015-04-04 19:23:42 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 114ms (Views: 112.7ms | ActiveRecord: 0.3ms)
