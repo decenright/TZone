@@ -1,0 +1,35 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.btn {
+    float:right;
+    position:relative;
+    margin: 5px;
+}
+
+.btn-lg{
+    
+}
+
+div#cart {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 290px;
+    height: 70px;
+    color: white;
+    float:right;
+    background-color:gray;
+    position:relative;
+}
+
+#header_clear {
+    width:480px;
+    height:150px;
+    float:left;
+    position:absolute;
+
+}
+
+#header_right {
+    float:right;
+}
