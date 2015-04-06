@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/signup' => 'users#new'
+
   get '/about' => 'site#about'
   get '/contact' => 'site#contact' 
   get '/admin' => 'user#admin_login'
