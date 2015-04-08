@@ -13469,3 +13469,177 @@ Migrating to CreateUsers (20150406223900)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150406223900"]]
   [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-08 19:31:26 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (47.7ms)
+Completed 200 OK in 569ms (Views: 556.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/GolfStyleSheet-71e4b817b7b9ea6f594bf653412800f4.css?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/cart-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/custom-3d40abcd0aa7b00315415476deaea4c4.css?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/items-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/scaffolds-f29a6883fc0f19ffd8f79678ad8cef98.css?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/site-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/user-069e88c06b889877799890854d7f4c40.css?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/application-52f936a3527245f2bee8ef8e8e8cd88b.css?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/cart-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/items-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/site-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/user-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/application-0b69fc62fe6d82b6c3f50ac5dc870324.js?body=1" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/Site/Shopping_Cart.png" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/titleistmb712-69a60657e34539ee9ca828c53a4a0dab.jpg" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/TaylorMadeR11s-cddaefc3b999defea23558f03fc53a3e.jpg" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/mizunoFastTrack-4a2f3bec326533e8b863750a0673e182.jpg" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/Bushnell-bb7883a1946ae6134a8ebe29d12e3c4a.jpg" for 193.1.209.100 at 2015-04-08 19:31:27 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 193.1.209.100 at 2015-04-08 19:31:28 +0000
+
+
+Started GET "/assets/Site/BG_Main.jpg" for 193.1.209.100 at 2015-04-08 19:31:28 +0000
+
+
+Started GET "/" for 193.1.209.100 at 2015-04-08 19:33:21 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 219ms (Views: 217.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/Site/Shopping_Cart.png" for 193.1.209.100 at 2015-04-08 19:33:21 +0000
+
+
+Started GET "/assets/Books/Pict1.jpg" for 193.1.209.100 at 2015-04-08 19:33:21 +0000
+
+
+Started GET "/assets/Site/BG_Main.jpg" for 193.1.209.100 at 2015-04-08 19:33:21 +0000
+
+
+Started GET "/assets/Site/T_Store_Header.jpg" for 193.1.209.100 at 2015-04-08 19:33:21 +0000
+
+
+Started GET "/items" for 193.1.209.100 at 2015-04-08 19:33:31 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 193ms (Views: 191.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/about" for 193.1.209.100 at 2015-04-08 19:33:32 +0000
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 234ms (Views: 233.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 193.1.209.100 at 2015-04-08 19:33:33 +0000
+Processing by SiteController#contact as HTML
+  Rendered site/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 185ms (Views: 183.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 193.1.209.100 at 2015-04-08 19:33:36 +0000
+Processing by UserController#admin_login as HTML
+Redirected to https://tshirt2-yellowsailing-1.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-04-08 19:33:36 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 255ms (Views: 253.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/logout" for 193.1.209.100 at 2015-04-08 19:33:37 +0000
+Processing by UserController#logout as HTML
+Redirected to https://tshirt2-yellowsailing-1.c9.io/items
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 193.1.209.100 at 2015-04-08 19:33:37 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 164ms (Views: 163.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cart" for 193.1.209.100 at 2015-04-08 19:33:39 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 273ms (Views: 272.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 193.1.209.100 at 2015-04-08 19:33:43 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 295ms (Views: 293.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 193.1.209.100 at 2015-04-08 19:39:23 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 198ms (Views: 197.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 193.1.209.100 at 2015-04-08 19:39:26 +0000
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 221ms (Views: 219.6ms | ActiveRecord: 0.0ms)
