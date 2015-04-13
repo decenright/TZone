@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/contact' => 'site#contact' 
   get '/admin' => 'user#admin_login'
   get '/logout' => 'user#logout'
+  get '/login' => 'user#login'
   get '/cart' => 'cart#index'
   get '/cart/:id' => 'cart#add'
   
