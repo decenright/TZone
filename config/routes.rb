@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
   get '/signup' => 'users#new'
-
+  resources :users
   get '/about' => 'site#about'
   get '/contact' => 'site#contact' 
   get '/admin' => 'user#admin_login'
   get '/logout' => 'user#logout'
   get '/cart' => 'cart#index'
   get '/cart/:id' => 'cart#add'
+  
 
 
   resources :items
