@@ -16,6 +16,24 @@
     color: white;
 }
 
+
+.banner {
+    position: relative;
+    min-height: 200px;
+    border: 1px solid gray;
+    background-image: url("/assets/Site/BG_Main.jpg");
+    max-width: 1000px;
+    min-width: 750px;
+    margin: auto;
+}
+
+.login {
+    height:200px;
+    width:30%;
+    background:white;
+    float:right;
+}
+
 div#cart {
     margin-top: 5px;
     margin-bottom: 5px;
