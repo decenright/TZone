@@ -1,15 +1,19 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
+
   get '/signup' => 'users#new'
   resources :users
   get '/about' => 'site#about'
   get '/contact' => 'site#contact' 
   get '/admin' => 'user#admin_login'
-  get '/logout' => 'user#logout'
-  get '/login' => 'user#login'
+  #get '/logout' => 'user#logout'
+  #get '/login' => 'user#login'
   get '/cart' => 'cart#index'
   get '/cart/:id' => 'cart#add'
   
-
+  get    'login'   => 'sessions#new'
+  post   'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
 
   resources :items
 
