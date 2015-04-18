@@ -5,6 +5,7 @@
 <% end %>
 
 <% total = 0 %>
+<% totalQuantity = 0 %>
 	
 <table class="cart">
     <tr>
@@ -31,11 +32,15 @@
     </td>
     </tr>
     <% total += quantity * item.price %>
+    <% totalQuantity += quantity %>
 <% end %>
 
     <tr>
         <td colspan="4">
-            <div class="total">Total:</div>
+            <div class="total">Cart Total:</div>
+        </td>
+        <td>
+            <div class="totalQuantity"><%= totalQuantity %></div>
         </td>
         <td>
             <div class="price"><%= number_to_currency(total, :unit => "€") %></div>
