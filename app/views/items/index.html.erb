@@ -21,7 +21,7 @@
             <%= number_to_currency(item.price, :unit => "€") %>
         </div>
         <div class="links">
-            <% if session[:login] == 1 %>
+            <% if session[:login] == 0 %>
               <%= link_to 'Edit', edit_item_path(item) %> |
               <%= link_to 'Delete', item, :confirm => 'Are you sure?', :method => :delete %>
             <% else %>
